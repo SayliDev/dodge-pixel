@@ -1,7 +1,7 @@
 window.addEventListener('load', function() {
     // Add main variables
     const player = document.getElementById('player');
-    const lanePositions = [50, 150, 250];
+    const lanePositions = [25, 125, 225];
     let currentLane = 1;
 
     function moveLeft() {
